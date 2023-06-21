@@ -1,16 +1,22 @@
-*{
-    margin:0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-:root{
-    --primary-color:#EEE2DE;
-    --secondary-color:#EA906C;
-    --highlight-red:#B31312;
-    --highlight-navy:#2B2A4C;
+:root {
+  --primary-color: #eee2de;
+  --secondary-color: #ea906c;
+  --highlight-red: #b31312;
+  --highlight-navy: #2b2a4c;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-body{
-    color:aqua;
+body {
+  color: var(--primary-color);
+  font-family: "Roboto", sans-serif;
 }

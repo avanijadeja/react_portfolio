@@ -9,36 +9,29 @@ import Footer from "../src/components/Footer";
 import userEvent from "@testing-library/user-event";
 
 function App() {
+  const [currentTab, setCurrentTab] = useState("About");
 
-const [currentTab,setCurrentTab] = userState("About");
+  const renderTab = () => {
+    if (currentTab === "About") {
+      return <About />;
+    } else if (currentTab === "Contact") {
+      return <Contact />;
+    } else if (currentTab === "Portfolio") {
+      return <Portfolio />;
+    } else if (currentTab === "Resume") {
+      return <Resume />;
+    } else {
+      return <About />;
+    }
+  };
 
-const renderTab =() => {
-
-    if(currentTab === "About"){
-        return <About />;
-    }
-    else if( currentTab === "Contact"){
-        return <Contact />;
-    }
-    else if(currentTab === "Portfolio"){
-        return <Portfolio />;
-    }
-    else if(currentTab === "Resume"){
-        return <Resume />;
-    }
-    else{
-        return <About />;
-    }
-};
-
-
-return(
+  return (
     <>
-    <header></header>
-    <Footer></Footer>
+      <header currentTab={currentTab} setCurrentTab={setCurrentTab}></header>
+      <main>{renderTab()}</main>
+      <Footer></Footer>
     </>
-    );
+  );
 }
-
 
 export default App;

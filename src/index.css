@@ -1,3 +1,16 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+:root{
+    --primary-color:#EEE2DE;
+    --secondary-color:#EA906C;
+    --highlight-red:#B31312;
+    --highlight-navy:#2B2A4C;
+}
+
+
 body{
     color:aqua;
 }

@@ -22,7 +22,6 @@ body {
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
-
 }
 
 main {
@@ -122,6 +121,61 @@ header nav ul li a:hover {
 .headshot {
   width: 300px;
   border-radius: 150px;
+}
+
+/* apply properties to main large header*/
+.hero-area {
+  display: flex;
+
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--dark-color);
+}
+
+/* apply margin and font peroperties to main sub header */
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200pxm;
+  font-size: 20px;
+}
+
+/* set margin,fonts-ze and wigth to main header pragraph tag */
+.hero-text p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+/*apply perperties to DOWNLOAD CV button in main header */
+.button {
+  width: 300px;
+  height: 55px;
+  text-align: center;
+  border-radius: 40px;
+  background-color: var(--secondary-color);
+
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.button a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+/*apply peroperty when on mouse hover on button */
+.button:hover {
+  background-color: var(--light-color);
+}
+
+/* apply property when button is active */
+.button:active {
+  background-color: var(--light-color);
+  color: var(--secondary-color);
+  text-decoration: none;
 }
 
 footer {

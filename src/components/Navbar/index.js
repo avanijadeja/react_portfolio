@@ -32,9 +32,7 @@ function Navbar(props) {
           <a
             href="#contact"
             onClick={() => setCurrentTab("contact")}
-            className={
-              currentTab === "Contact" ? "nav-link active" : "nav-link"
-            }
+            className={currentTab === "Contact" ? "nav-link active" : "nav-link"}
           >
             Contact
           </a>

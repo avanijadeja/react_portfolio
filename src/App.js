@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css";
+
 import Header from "../src/components/Header";
 import About from "../src/components/About";
 import Contact from "../src/components/Contact";
@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-      <header currentTab={currentTab} setCurrentTab={setCurrentTab}></header>
+      <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
       <main>{renderTab()}</main>
       <Footer></Footer>
     </>

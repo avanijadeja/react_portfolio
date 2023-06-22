@@ -5,20 +5,11 @@ function Resume() {
   return (
     <div>
       <section>
-        <div class="hero-area">
-          <div class="hero-text">
-            <h1>HEY, I'M AVANI JADEJA</h1>
-            <p>
-              I am a software developement engineer. Turning ideas into reallife{" "}
-              <i>
-                <b>Products</b>
-              </i>{" "}
-              is my calling.
-            </p>
-            <div class="button">
-              <a href={avaniResume}>Download CV</a>
-            </div>
-          </div>
+        <h1 id="resume">Resume </h1>
+        <br></br>
+
+        <div class="button" id="cvButton">
+          <a href={avaniResume}>Download my Resume</a>
         </div>
       </section>
       <section id="resumeBody" classname="resumeBody">

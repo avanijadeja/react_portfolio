@@ -1,0 +1,45 @@
+[ {
+    "id": 1,
+    "name": "Bark Book",
+    "image": "./src/assets/BarkBook.png",
+    "github": "https://github.com/avanijadeja/BarkBook",
+    "deploy": "https://avani-barkbook.herokuapp.com/",
+    "topics": "Express sequelize"
+},
+{
+    "id": 2,
+    "name": "Work Day Scheduler",
+    "image": "./src/assets/dayTime.png",
+    "github": "https://github.com/avanijadeja/work-day-scheduler",
+    "deploy": "https://avanijadeja.github.io/work-day-scheduler/",
+    "topics": "Javascript Bootstrap"
+},
+{
+    "id": 3,
+    "name": "Weather Dashboard",
+    "image": "./src/assets/Weather.png",
+    "github": "https://github.com/avanijadeja/weather-dashboard",
+    "deploy": "https://avanijadeja.github.io/weather-dashboard/",
+    "topics": "Javascript Bootstrap"
+},
+{
+    "id": 4,
+    "name": "Parkitivities",
+    "image": "./src/assets/Parkitivities.png",
+    "github": "https://github.com/avanijadeja/Parktivities",
+    "deploy": "https://avanijadeja.github.io/Parktivities/",
+    "topics": "Javascript Bootstrap"
+},
+{
+    "id": 5,
+    "name": "Tech Blog",
+    "image": "./src/assets/Parkitivities.png",
+    "github": "https://github.com/avanijadeja/tech-blog",
+    "deploy": "",
+    "topics": "Javascript Bootstrap"
+},
+{
+    
+}
+
+]

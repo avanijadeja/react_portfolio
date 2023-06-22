@@ -46,10 +46,11 @@ function Contact() {
   }
 
   return (
-    <section>
+    <section className="contactForm">
       <div className="center">
         <h2 className="page-header">Contact Me</h2>
       </div>
+      <br></br>
       <div>
         <form id="contact-form">
           <div>
@@ -63,9 +64,10 @@ function Contact() {
               name="Name"
             />
           </div>
+          <br></br>
           <div>
             <label htmlFor="email" class="contactLabel">
-              Email address:
+              Email:
             </label>
             <br></br>
             <input
@@ -75,6 +77,7 @@ function Contact() {
               onBlur={handleChange}
             />
           </div>
+          <br></br>
           <div>
             <label htmlFor="Message" class="contactLabel">
               {" "}
@@ -88,12 +91,15 @@ function Contact() {
               rows="5"
             />
           </div>
+          <br></br>
           {errorMessage && (
             <div>
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
-          <button type="submit">Submit</button>
+          <button type="submit" class="submit">
+            Submit
+          </button>
         </form>
       </div>
     </section>

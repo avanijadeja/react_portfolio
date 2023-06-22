@@ -31,8 +31,10 @@ function Navbar(props) {
         <li className="nav-item">
           <a
             href="#contact"
-            onClick={() => setCurrentTab("contact")}
-            className={currentTab === "Contact" ? "nav-link active" : "nav-link"}
+            onClick={() => setCurrentTab("Contact")}
+            className={
+              currentTab === "Contact" ? "nav-link active" : "nav-link"
+            }
           >
             Contact
           </a>

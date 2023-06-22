@@ -32,14 +32,19 @@
 },
 {
     "id": 5,
-    "name": "Tech Blog",
+    "name": "Portfolio",
     "image": "./src/assets/Parkitivities.png",
-    "github": "https://github.com/avanijadeja/tech-blog",
-    "deploy": "",
+    "github": "https://github.com/avanijadeja/Avani_Portfolio",
+    "deploy": "https://avanijadeja.github.io/Avani_Portfolio/",
     "topics": "Javascript Bootstrap"
 },
 {
-    
+    "id": 6,
+    "name": "React Portfolio",
+    "image": "./src/assets/Parkitivities.png",
+    "github": "https://github.com/avanijadeja/react_portfolio",
+    "deploy": "",
+    "topics": "Javascript Bootstrap"
 }
 
 ]

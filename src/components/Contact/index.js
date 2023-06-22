@@ -90,6 +90,8 @@ function Contact() {
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
+          <br></br>
+          <br></br>
           <button type="submit" className="submit" onSubmit={handleSubmit}>
             Submit
           </button>

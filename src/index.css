@@ -4,10 +4,10 @@
 }
 
 :root {
-  --primary-color: #eee2de;
-  --secondary-color: #ea906c;
-  --highlight-red: #b31312;
-  --highlight-navy: #2b2a4c;
+  --primary-color: #fcffe7;
+  --secondary-color: #eb455f;
+  --light-color: #bad7e9;
+  --dark-color: #2b3467;
 }
 
 #root {
@@ -22,7 +22,7 @@ body {
 }
 
 header {
-  padding: 30px;
+  padding: 15px;
   background-color: var(--secondary-color);
   display: flex;
   justify-content: space-between;
@@ -32,15 +32,14 @@ header {
 }
 
 header h1 {
-  font-weight: bold;
   margin: 0;
-  font-size: 36px;
-  color: var(--highlight-red);
+  font-size: 22px;
+  color: var(--dark-color);
 }
 
 header a {
   text-decoration: none;
-  color: var(--highlight-navy);
+  color: var(--dark-color);
 }
 
 header nav {
@@ -54,10 +53,44 @@ header nav ul {
   align-items: center;
   list-style: none;
 }
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: normal;
+}
 
 header nav ul li a:hover {
-  background-color: var(--highlight-navy);
-  color: var(--secondary-color);
+  color: var(--light-color);
   border-radius: 15px;
   text-shadow: none;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  font-weight: bold;
+  height: 100px;
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer h1 {
+  color: var(--dark-color);
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+}
+
+footer div {
+  line-height: 1.5;
+}
+
+footer a {
+  color: var(--dark-color);
+}
+
+footer a:hover {
+  color: var(--light-color);
 }

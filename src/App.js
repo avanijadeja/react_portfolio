@@ -6,7 +6,7 @@ import Contact from "../src/components/Contact";
 import Portfolio from "../src/components/Portfolio";
 import Resume from "../src/components/Resume";
 import Footer from "../src/components/Footer";
-import userEvent from "@testing-library/user-event";
+
 
 function App() {
   const [currentTab, setCurrentTab] = useState("About");

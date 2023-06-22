@@ -15,24 +15,13 @@ function Contact() {
   function handleChange(e) {
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
+
       if (!isValid) {
-        setErrorMessage("Please Enter Valid Email");
+        setErrorMessage("please enter a valid email");
       } else {
-        if (!e.target.value.length) {
-          setErrorMessage(`${e.target.name} is required.`);
-        } else {
-          setErrorMessage("");
-        }
+        setErrorMessage("");
       }
-    }
-
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-    }
-  }
-
-  function handleBlank(e) {
-    if (e.target.name === "Name" || e.target.name === "Message") {
+    } else {
       if (!e.target.value.length) {
         setErrorMessage(`${e.target.name} is required.`);
       } else {
@@ -43,6 +32,10 @@ function Contact() {
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
     }
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
   }
 
   return (
@@ -60,7 +53,7 @@ function Contact() {
             <input
               type="text"
               defaultValue={name}
-              onBlur={handleBlank}
+              onBlur={handleChange}
               name="Name"
             />
           </div>
@@ -87,8 +80,8 @@ function Contact() {
             <textarea
               name="Message"
               defaultValue={message}
-              onBlur={handleBlank}
-              rows="5"
+              onBlur={handleChange}
+              rows="6"
             />
           </div>
           <br></br>
@@ -97,7 +90,7 @@ function Contact() {
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
-          <button type="submit" class="submit">
+          <button type="submit" class="submit" onSubmit={handleSubmit}>
             Submit
           </button>
         </form>

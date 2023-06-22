@@ -7,7 +7,7 @@ import Parkitivities from "../../assets/images/Parkitivities.png";
 import TechBlog from "../../assets/images/TechBlog.png";
 import { VscGithubInverted } from "react-icons/vsc";
 
-function Portfolio() {
+function Portfolio(Props) {
   return (
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>

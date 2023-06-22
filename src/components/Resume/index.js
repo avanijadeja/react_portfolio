@@ -8,18 +8,18 @@ function Resume() {
         <h1 id="resume">Resume </h1>
         <br></br>
 
-        <div class="button" id="cvButton">
+        <div className="button" id="cvButton">
           <a href={avaniResume}>Download my Resume</a>
         </div>
       </section>
-      <section id="resumeBody" classname="resumeBody">
+      <section id="resumeBody" classNamename="resumeBody">
         <br></br>
         <br></br>
         <br></br>
 
-        <div className="article column1">
-          <p className="column-title">Font-End Proficiencies</p>
-          <p className="column-text">
+        <div classNameName="article column1">
+          <p classNameName="column-title">Font-End Proficiencies</p>
+          <p classNameName="column-text">
             <ul>
               <li>HTML</li>
               <li>CSS</li>
@@ -32,9 +32,9 @@ function Resume() {
           </p>
         </div>
 
-        <div className="article column2">
-          <p className="column-title">Back-End Proficiencies</p>
-          <p className="column-text">
+        <div classNameName="article column2">
+          <p classNameName="column-title">Back-End Proficiencies</p>
+          <p classNameName="column-text">
             <ul>
               <li>Node</li>
               <li>APIs</li>

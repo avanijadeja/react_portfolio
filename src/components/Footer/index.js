@@ -12,19 +12,19 @@ function Footer() {
         </li>
 
         <a href="https://github.com/avanijadeja">
-          <li className="logo">
+          <li classNameName="logo">
             <VscGithubInverted />
           </li>
         </a>
 
         <a href="https://www.linkedin.com/in/avaniba-jadeja-5b927a18/">
-          <li className="logo">
+          <li classNameName="logo">
             <AiFillLinkedin />
           </li>
         </a>
 
         <a href="https://stackoverflow.com/users/22099285/avaniba-jadeja">
-          <li className="logo">
+          <li classNameName="logo">
             <BsStackOverflow />
           </li>
         </a>

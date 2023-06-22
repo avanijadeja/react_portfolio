@@ -39,15 +39,15 @@ function Contact() {
   }
 
   return (
-    <section className="contactForm">
-      <div className="center">
-        <h2 className="page-header">Contact Me</h2>
+    <section classNameName="contactForm">
+      <div classNameName="center">
+        <h2 classNameName="page-header">Contact Me</h2>
       </div>
       <br></br>
       <div>
         <form id="contact-form">
           <div>
-            <label htmlFor="Name" class="contactLabel">
+            <label htmlFor="Name" className="contactLabel">
               Name:
             </label>{" "}
             <input
@@ -59,7 +59,7 @@ function Contact() {
           </div>
           <br></br>
           <div>
-            <label htmlFor="email" class="contactLabel">
+            <label htmlFor="email" className="contactLabel">
               Email:
             </label>
             <br></br>
@@ -72,7 +72,7 @@ function Contact() {
           </div>
           <br></br>
           <div>
-            <label htmlFor="Message" class="contactLabel">
+            <label htmlFor="Message" className="contactLabel">
               {" "}
               Message:
             </label>
@@ -87,10 +87,10 @@ function Contact() {
           <br></br>
           {errorMessage && (
             <div>
-              <p className="error-text">{errorMessage}</p>
+              <p classNameName="error-text">{errorMessage}</p>
             </div>
           )}
-          <button type="submit" class="submit" onSubmit={handleSubmit}>
+          <button type="submit" className="submit" onSubmit={handleSubmit}>
             Submit
           </button>
         </form>

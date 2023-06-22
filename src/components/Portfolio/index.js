@@ -9,13 +9,13 @@ import { VscGithubInverted } from "react-icons/vsc";
 
 function Portfolio(Props) {
   return (
-    <div className="portfolio" id="portfolio">
+    <div classNameName="portfolio" id="portfolio">
       <h1>Portfolio</h1>
-      <div className="container">
+      <div classNameName="container">
         <a href="https://github.com/avanijadeja/work-day-scheduler">
-          <div className="item">
+          <div classNameName="item">
             <img src={dayTime} alt="WorkDay Scheduler"></img>
-            <div class="projectInfo">
+            <div className="projectInfo">
               <h4>
                 Work Day Scheduler
                 <VscGithubInverted />
@@ -27,9 +27,9 @@ function Portfolio(Props) {
         </a>
 
         <a href="https://github.com/avanijadeja/note-taker">
-          <div className="item">
+          <div classNameName="item">
             <img src={noteTracker} alt="Note tracker"></img>
-            <div class="projectInfo">
+            <div className="projectInfo">
               <h4>
                 Note Tracker <VscGithubInverted />
               </h4>
@@ -40,9 +40,9 @@ function Portfolio(Props) {
         </a>
 
         <a href="https://github.com/avanijadeja/BarkBook">
-          <div className="item">
+          <div classNameName="item">
             <img src={barkBook} alt="BarkBook Website"></img>
-            <div class="projectInfo">
+            <div className="projectInfo">
               <h4>
                 BarkBook <VscGithubInverted />
               </h4>
@@ -53,9 +53,9 @@ function Portfolio(Props) {
         </a>
 
         <a href="https://github.com/avanijadeja/Parktivities">
-          <div className="item">
+          <div classNameName="item">
             <img src={Parkitivities} alt="Parkitivities"></img>
-            <div class="projectInfo">
+            <div className="projectInfo">
               <h4>
                 Parkitivities
                 <VscGithubInverted />
@@ -66,9 +66,9 @@ function Portfolio(Props) {
           </div>
         </a>
         <a href="https://github.com/avanijadeja/tech-blog">
-          <div className="item">
+          <div classNameName="item">
             <img src={TechBlog} alt="TechBlog"></img>
-            <div class="projectInfo">
+            <div className="projectInfo">
               <h4>
                 TechBlog
                 <VscGithubInverted />
@@ -80,9 +80,9 @@ function Portfolio(Props) {
         </a>
 
         <a href="https://github.com/avanijadeja/weather-dashboard">
-          <div className="item">
+          <div classNameName="item">
             <img src={weather} alt="Weather dashboard"></img>
-            <div class="projectInfo">
+            <div className="projectInfo">
               <h4>
                 Weather Dashboard
                 <VscGithubInverted />

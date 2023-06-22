@@ -5,22 +5,24 @@ function Navbar(props) {
 
   return (
     <nav>
-      <ul className="nav nav-tabs">
-        <li className="nav-item">
+      <ul classNameName="nav nav-tabs">
+        <li classNameName="nav-item">
           <a
             href="#about"
             onClick={() => setCurrentTab("About")}
-            className={currentTab === "About" ? "nav-link active" : "nav-link"}
+            classNameName={
+              currentTab === "About" ? "nav-link active" : "nav-link"
+            }
           >
             About
           </a>
         </li>
 
-        <li className="nav-item">
+        <li classNameName="nav-item">
           <a
             href="#portfolio"
             onClick={() => setCurrentTab("Portfolio")}
-            className={
+            classNameName={
               currentTab === "Portfolio" ? "nav-link active" : "nav-link"
             }
           >
@@ -28,11 +30,11 @@ function Navbar(props) {
           </a>
         </li>
 
-        <li className="nav-item">
+        <li classNameName="nav-item">
           <a
             href="#contact"
             onClick={() => setCurrentTab("Contact")}
-            className={
+            classNameName={
               currentTab === "Contact" ? "nav-link active" : "nav-link"
             }
           >
@@ -40,11 +42,13 @@ function Navbar(props) {
           </a>
         </li>
 
-        <li className="nav-item">
+        <li classNameName="nav-item">
           <a
             href="#resume"
             onClick={() => setCurrentTab("Resume")}
-            className={currentTab === "Resume" ? "nav-link active" : "nav-link"}
+            classNameName={
+              currentTab === "Resume" ? "nav-link active" : "nav-link"
+            }
           >
             Resume
           </a>

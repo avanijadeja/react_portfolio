@@ -3,18 +3,18 @@ import profilePic from "../../assets/images/Avani.jpeg";
 
 function About() {
   return (
-    <section class="sub-section" id="about-me">
-      <div class="headshot-container">
-        <img class="headshot" src={profilePic} alt="Avani Jadeja pic" />
+    <section className="sub-section" id="about-me">
+      <div className="headshot-container">
+        <img className="headshot" src={profilePic} alt="Avani Jadeja pic" />
       </div>
 
-      <div class="information">
+      <div className="information">
         <h2 id="AboutMe">About Me</h2>
         <br></br>
         <br></br>
         <p>
-          <div class="hero-area">
-            <div class="hero-text">
+          <div className="hero-area">
+            <div className="hero-text">
               <h1>HEY, I'M AVANI JADEJA.</h1>
               <p>
                 I am a software developement engineer. Turning ideas into

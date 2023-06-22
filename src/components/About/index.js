@@ -12,7 +12,7 @@ function About() {
         <h2 id="AboutMe">About Me</h2>
         <br></br>
         <br></br>
-        <p>
+        <div>
           <div className="hero-area">
             <div className="hero-text">
               <h1>HEY, I'M AVANI JADEJA.</h1>
@@ -33,7 +33,7 @@ function About() {
             </div>
           </div>
           <br></br>
-        </p>
+        </div>
       </div>
     </section>
   );

@@ -7,7 +7,6 @@ import Portfolio from "../src/components/Portfolio";
 import Resume from "../src/components/Resume";
 import Footer from "../src/components/Footer";
 
-
 function App() {
   const [currentTab, setCurrentTab] = useState("About");
 

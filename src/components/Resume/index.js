@@ -12,14 +12,14 @@ function Resume() {
           <a href={avaniResume}>Download my Resume</a>
         </div>
       </section>
-      <section id="resumeBody" classNamename="resumeBody">
+      <section id="resumeBody" className="resumeBody">
         <br></br>
         <br></br>
         <br></br>
 
-        <div classNameName="article column1">
-          <p classNameName="column-title">Font-End Proficiencies</p>
-          <p classNameName="column-text">
+        <div className="article column1">
+          <p className="column-title">Font-End Proficiencies</p>
+          <p className="column-text">
             <ul>
               <li>HTML</li>
               <li>CSS</li>
@@ -32,9 +32,9 @@ function Resume() {
           </p>
         </div>
 
-        <div classNameName="article column2">
-          <p classNameName="column-title">Back-End Proficiencies</p>
-          <p classNameName="column-text">
+        <div className="article column2">
+          <p className="column-title">Back-End Proficiencies</p>
+          <p className="column-text">
             <ul>
               <li>Node</li>
               <li>APIs</li>

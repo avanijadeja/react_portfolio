@@ -9,11 +9,11 @@ import { VscGithubInverted } from "react-icons/vsc";
 
 function Portfolio(Props) {
   return (
-    <div classNameName="portfolio" id="portfolio">
+    <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
-      <div classNameName="container">
+      <div className="container">
         <a href="https://github.com/avanijadeja/work-day-scheduler">
-          <div classNameName="item">
+          <div className="item">
             <img src={dayTime} alt="WorkDay Scheduler"></img>
             <div className="projectInfo">
               <h4>
@@ -27,7 +27,7 @@ function Portfolio(Props) {
         </a>
 
         <a href="https://github.com/avanijadeja/note-taker">
-          <div classNameName="item">
+          <div className="item">
             <img src={noteTracker} alt="Note tracker"></img>
             <div className="projectInfo">
               <h4>
@@ -40,7 +40,7 @@ function Portfolio(Props) {
         </a>
 
         <a href="https://github.com/avanijadeja/BarkBook">
-          <div classNameName="item">
+          <div className="item">
             <img src={barkBook} alt="BarkBook Website"></img>
             <div className="projectInfo">
               <h4>
@@ -53,7 +53,7 @@ function Portfolio(Props) {
         </a>
 
         <a href="https://github.com/avanijadeja/Parktivities">
-          <div classNameName="item">
+          <div className="item">
             <img src={Parkitivities} alt="Parkitivities"></img>
             <div className="projectInfo">
               <h4>
@@ -66,7 +66,7 @@ function Portfolio(Props) {
           </div>
         </a>
         <a href="https://github.com/avanijadeja/tech-blog">
-          <div classNameName="item">
+          <div className="item">
             <img src={TechBlog} alt="TechBlog"></img>
             <div className="projectInfo">
               <h4>
@@ -80,7 +80,7 @@ function Portfolio(Props) {
         </a>
 
         <a href="https://github.com/avanijadeja/weather-dashboard">
-          <div classNameName="item">
+          <div className="item">
             <img src={weather} alt="Weather dashboard"></img>
             <div className="projectInfo">
               <h4>

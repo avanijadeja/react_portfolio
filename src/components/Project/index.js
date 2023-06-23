@@ -1,7 +1,7 @@
 import React from "react";
 import { VscGithubInverted } from "react-icons/vsc";
 
-const Project = ({ id, name, image, github, deploy, topics }) => {
+const Project = ({ name, image, github, deploy, topics }) => {
   return (
     <div className="container">
       <div className="item">

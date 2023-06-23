@@ -66,7 +66,7 @@ function Portfolio() {
         {data.map((item, i) => {
           return (
             <Project
-              id={item.id}
+              key={item.id}
               name={item.name}
               image={item.image}
               github={item.github}

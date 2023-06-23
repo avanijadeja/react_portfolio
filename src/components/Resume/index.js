@@ -6,11 +6,11 @@ function Resume() {
     <>
       <h1>Resume </h1>
 
-      <div className="button" id="cvButton">
+      <div className="cvbutton">
         <a href={avaniResume}>Download my Resume</a>
       </div>
 
-      <div class="resumeMainBody">
+      <div className="resumeMainBody">
         <section id="resumeBody" className="resumeBody">
           <div className="FrontEnd">
             <p className="column-title">Font-End Proficiencies</p>

@@ -299,10 +299,14 @@ textarea {
   height: 30px;
   text-align: center;
   border-radius: 40px;
+
   background-color: var(--secondary-color);
   color: var(--primary-color);
 }
 
+.error-text {
+  padding-bottom: 20px;
+}
 .submit:hover {
   color: var(--light-color);
 }

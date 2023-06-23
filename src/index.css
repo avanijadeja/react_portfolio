@@ -202,8 +202,9 @@ header nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 30px;
-  padding: 30px;
+  justify-content: center;
+  /* margin-top: 30px;
+  padding: 30px; */
 }
 
 .portfolio h2 {

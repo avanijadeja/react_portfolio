@@ -266,10 +266,7 @@ header nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-form {
-  width: 40%;
+  padding-top: 20px;
 }
 
 input {

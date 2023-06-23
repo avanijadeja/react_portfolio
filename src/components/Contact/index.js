@@ -52,6 +52,7 @@ function Contact() {
               <label htmlFor="Name" className="contactLabel">
                 Name:
               </label>{" "}
+              <br></br>
               <input
                 type="text"
                 defaultValue={name}

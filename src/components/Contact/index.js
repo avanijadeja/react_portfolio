@@ -39,65 +39,68 @@ function Contact() {
   }
 
   return (
-    <section className="contactForm">
-      <div className="center">
-        <h1 className="page-header">Contact Me</h1>
-      </div>
-      <br></br>
-      <div>
-        <form id="contact-form">
-          <div>
-            <label htmlFor="Name" className="contactLabel">
-              Name:
-            </label>{" "}
-            <input
-              type="text"
-              defaultValue={name}
-              onBlur={handleChange}
-              name="Name"
-            />
-          </div>
-          <br></br>
-          <div>
-            <label htmlFor="email" className="contactLabel">
-              Email:
-            </label>
-            <br></br>
-            <input
-              type="email"
-              defaultValue={email}
-              name="email"
-              onBlur={handleChange}
-            />
-          </div>
-          <br></br>
-          <div>
-            <label htmlFor="Message" className="contactLabel">
-              {" "}
-              Message:
-            </label>
-            <br></br>
-            <textarea
-              name="Message"
-              defaultValue={message}
-              onBlur={handleChange}
-              rows="6"
-            />
-          </div>
-          <br></br>
-          {errorMessage && (
+    <>
+      <h1>Contact Me</h1>
+      <section className="contactForm">
+        {/* <div className="center">
+          <h1 className="page-header">Contact Me</h1>
+        </div> */}
+        <br></br>
+        <div>
+          <form id="contact-form">
             <div>
-              <p className="error-text">{errorMessage}</p>
+              <label htmlFor="Name" className="contactLabel">
+                Name:
+              </label>{" "}
+              <input
+                type="text"
+                defaultValue={name}
+                onBlur={handleChange}
+                name="Name"
+              />
             </div>
-          )}
-          <br></br>
-          <br></br>
-          <button type="submit" className="submit" onSubmit={handleSubmit}>
-            Submit
-          </button>
-        </form>
-      </div>
-    </section>
+            <br></br>
+            <div>
+              <label htmlFor="email" className="contactLabel">
+                Email:
+              </label>
+              <br></br>
+              <input
+                type="email"
+                defaultValue={email}
+                name="email"
+                onBlur={handleChange}
+              />
+            </div>
+            <br></br>
+            <div>
+              <label htmlFor="Message" className="contactLabel">
+                {" "}
+                Message:
+              </label>
+              <br></br>
+              <textarea
+                name="Message"
+                defaultValue={message}
+                onBlur={handleChange}
+                rows="6"
+              />
+            </div>
+            <br></br>
+            {errorMessage && (
+              <div>
+                <p className="error-text">{errorMessage}</p>
+              </div>
+            )}
+            <br></br>
+            <br></br>
+            <button type="submit" className="submit" onSubmit={handleSubmit}>
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
+    </>
   );
 }
 

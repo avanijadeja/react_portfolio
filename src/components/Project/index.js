@@ -8,8 +8,8 @@ const Project = ({ name, image, github, deploy, topics }) => {
         <img src={image} alt="WorkDay Scheduler"></img>
         <div className="projectInfo">
           <h4>
-            <a href={deploy}>{name}</a>
-            <a href={github}>
+            <a href={deploy} id="deployLink">{name}</a>
+            <a href={github} id= "githubLink">
               <VscGithubInverted />
             </a>
           </h4>

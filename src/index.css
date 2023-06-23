@@ -32,6 +32,11 @@ main {
   background-color: var(--dark-color);
 }
 
+h1 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
+}
 header {
   width: 100%;
   padding: 15px;
@@ -43,7 +48,7 @@ header {
   top: 0px;
 }
 
-header h1 {
+header h4 {
   margin: 0;
   font-size: 22px;
 }
@@ -239,6 +244,7 @@ header nav ul li a:hover {
 .container .item .projectInfo .logoProject {
   color: black;
 }
+
 .item img {
   width: 100%;
   height: 100%;
@@ -247,9 +253,9 @@ header nav ul li a:hover {
   z-index: 1;
 }
 
-.container img:hover {
+.container .item:hover img {
   background-color: var(--dark-color);
-  opacity: 0.3;
+  opacity: 0.4;
   z-index: 0;
 }
 
@@ -303,22 +309,27 @@ textarea {
 }
 /* resume */
 
+.resumeMainBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .resumeBody {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-.column1,
-.column2 {
+.FrontEnd,
+.BackEnd {
   align-items: center;
   width: 350px;
   display: inline-block;
   vertical-align: top;
   text-align: center;
-  margin: 30px 0 0 60px;
+  /* margin: 30px 0 0 60px; */
 }
 
 .article {

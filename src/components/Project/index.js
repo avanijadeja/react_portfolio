@@ -1,15 +1,17 @@
 import React from "react";
 import { VscGithubInverted } from "react-icons/vsc";
 
-const Project = ({ name, image, github, deploy, topics }) => {
+const Project = ({ id, name, image, github, deploy, topics }) => {
   return (
     <div className="container">
       <div className="item">
         <img src={image} alt="WorkDay Scheduler"></img>
         <div className="projectInfo">
           <h4>
-            <a href={deploy} id="deployLink">{name}</a>
-            <a href={github} id= "githubLink">
+            <a href={deploy} target="_blank" rel="noreferrer">
+              {name}
+            </a>
+            <a href={github} target="_blank" rel="noreferrer">
               <VscGithubInverted />
             </a>
           </h4>

@@ -9,6 +9,7 @@ import AvaniPortfolio from "../../assets/images/AvaniPortfolio.png";
 
 const data = [
   {
+    id: 1,
     name: "Bark Book",
     image: barkBook,
     github: "https://github.com/avanijadeja/BarkBook",
@@ -16,6 +17,7 @@ const data = [
     topics: "Express sequelize",
   },
   {
+    id: 2,
     name: "Work Day Scheduler",
     image: dayTime,
     github: "https://github.com/avanijadeja/work-day-scheduler",
@@ -23,6 +25,7 @@ const data = [
     topics: "Javascript Bootstrap",
   },
   {
+    id: 3,
     name: "Weather Dashboard",
     image: weather,
     github: "https://github.com/avanijadeja/weather-dashboard",
@@ -30,6 +33,7 @@ const data = [
     topics: "Javascript Bootstrap",
   },
   {
+    id: 4,
     name: "Parkitivities",
     image: Parkitivities,
     github: "https://github.com/avanijadeja/Parktivities",
@@ -37,6 +41,7 @@ const data = [
     topics: "Javascript Bootstrap",
   },
   {
+    id: 5,
     name: "Portfolio",
     image: AvaniPortfolio,
     github: "https://github.com/avanijadeja/Avani_Portfolio",
@@ -44,6 +49,7 @@ const data = [
     topics: "Javascript Bootstrap",
   },
   {
+    id: 6,
     name: "ReactPortfolio",
     image: ReactPortfolio,
     github: "https://github.com/avanijadeja/react_portfolio",
@@ -60,6 +66,7 @@ function Portfolio() {
         {data.map((item, i) => {
           return (
             <Project
+              id={item.id}
               name={item.name}
               image={item.image}
               github={item.github}

@@ -263,7 +263,9 @@ header nav ul li a:hover {
 
 /* Contact */
 .contactForm {
-  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 form {

@@ -9,13 +9,13 @@ function About() {
       </div>
 
       <div className="information">
-        <h2 id="AboutMe">About Me</h2>
+        <h1 id="AboutMe">About Me</h1>
         <br></br>
         <br></br>
         <div>
           <div className="hero-area">
             <div className="hero-text">
-              <h1>HEY, I'M AVANI JADEJA.</h1>
+              <h2>HEY, I'M AVANI JADEJA.</h2>
               <p>
                 I am a software developement engineer. Turning ideas into
                 reallife{" "}

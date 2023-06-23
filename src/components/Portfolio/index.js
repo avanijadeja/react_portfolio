@@ -4,6 +4,7 @@ import barkBook from "../../assets/images/BarkBook.png";
 import dayTime from "../../assets/images/dayTime.png";
 import weather from "../../assets/images/Weather.png";
 import Parkitivities from "../../assets/images/Parkitivities.png";
+import AvaniPortfolio from "../../assets/images/AvaniPortfolio.png";
 
 const data = [
   {
@@ -36,7 +37,7 @@ const data = [
   },
   {
     name: "Portfolio",
-    image: "./src/assets/Parkitivities.png",
+    image: AvaniPortfolio,
     github: "https://github.com/avanijadeja/Avani_Portfolio",
     deploy: "https://avanijadeja.github.io/Avani_Portfolio/",
     topics: "Javascript Bootstrap",

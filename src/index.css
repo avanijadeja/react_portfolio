@@ -1,3 +1,4 @@
+/* Global CSS Start - for all elements in this application */
 /* for all page set margin and padding :0 */
 * {
   margin: 0;
@@ -38,7 +39,11 @@ h1 {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+/* Global CSS End */
 
+/* Header CSS  Start */
+
+/* header navbar css */
 header {
   width: 100%;
   padding: 15px;
@@ -51,20 +56,19 @@ header {
   z-index: 9999;
 }
 
+/* Rightside h4 - Avani's Portfolio stylesheet */
 header h4 {
   margin: 0;
-  font-size: 22px;
+  font-size: 20px;
 }
 
+/* navbar <a> css */
 header a {
   text-decoration: none;
   color: var(--primary-color);
 }
 
-header nav {
-  margin: 7px 0;
-}
-
+/* navbar ul css */
 header nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -72,18 +76,79 @@ header nav ul {
   align-items: center;
   list-style: none;
 }
+
+/* navbar li <a> link css */
 header nav ul li a {
   padding: 10px 37px;
   font-weight: normal;
 }
 
+/* navbar a hover css */
 header nav ul li a:hover {
   color: var(--light-color);
 }
+/* header CSS End */
 
-.information #AboutMe {
+/* Portfolio CSS start */
+
+/* portfolio and container class css */
+.portfolio,
+.container {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
+
+/* item class inside container class CSS*/
+.container .item {
+  width: 350px;
+  height: 200px;
+  border-radius: 20px;
+  border: 1px solid rgb(240, 239, 239);
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+
+/* inside projectInfo CSS  */
+.container .item .projectInfo {
+  position: absolute;
+  font-size: 30px;
+  color: black;
+}
+
+/* set github logo color black */
+.container .item .projectInfo .logoProject {
+  color: black;
+}
+
+/* project image css */
+.item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* when cursor over image set css */
+.container .item:hover img {
+  background-color: var(--dark-color);
+  opacity: 0.2;
+  z-index: 0;
+}
+
+/* for anchor in porjectInfo set CSS */
+.projectInfo a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+/* Portfolio CSS END */
 
 #resume {
   padding-left: 50px;
@@ -192,71 +257,6 @@ header nav ul li a:hover {
 /*apply peroperty when on mouse hover on button */
 .cvbutton a:hover {
   color: var(--light-color);
-}
-
-/* portfolio */
-
-.portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  /* margin-top: 30px;
-  padding: 30px; */
-}
-
-.portfolio h2 {
-  padding: 30px;
-}
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.container .item {
-  width: 350px;
-  height: 200px;
-  border-radius: 20px;
-  border: 1px solid rgb(240, 239, 239);
-  margin: 10px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  position: relative;
-  /* transition: all 1s ease; */
-  cursor: pointer;
-}
-
-.container .item .projectInfo {
-  position: absolute;
-  font-size: 30px;
-  color: black;
-}
-
-.container .item .projectInfo .logoProject {
-  color: black;
-}
-
-.item img {
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  object-fit: cover;
-  z-index: 1;
-}
-
-.container .item:hover img {
-  background-color: var(--dark-color);
-  opacity: 0.4;
-  z-index: 0;
-}
-
-.projectInfo a {
-  text-decoration: none;
-  color: black;
 }
 
 /* Contact */

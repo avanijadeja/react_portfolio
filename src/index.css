@@ -139,7 +139,7 @@ header nav ul li a:hover {
   border-radius: 150px;
 }
 
-/* About me Ends */
+/* About me CSS End */
 
 /* Portfolio CSS start */
 
@@ -367,3 +367,13 @@ footer ul h2 {
   color: var(--light-color);
 }
 /* Footer CSS Ends */
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 16px;
+  }
+
+  .information {
+    font-size: 10px;
+  }
+}

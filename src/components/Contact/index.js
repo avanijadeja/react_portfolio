@@ -104,6 +104,7 @@ function Contact() {
           <button type="submit" className="submit" onSubmit={handleSubmit}>
             Submit
           </button>
+          <br></br>
         </form>
       </section>
     </>

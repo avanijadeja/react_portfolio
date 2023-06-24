@@ -370,7 +370,69 @@ footer ul h2 {
 .logo:hover {
   color: var(--light-color);
 }
+
 /* Footer CSS Ends */
 
+@media screen and (max-width: 1200px) {
+  header h4,
+  nav ul li a {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .information {
+    font-size: 10px;
+  }
+
+  footer ul h2 {
+    font-size: 14px;
+    padding-right: 5px;
+  }
+  .logo {
+    font-size: 14px;
+  }
+}
+
+/* for max-width 992px its changes different attribute fontsize. */
 @media screen and (max-width: 992px) {
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .information {
+    margin: 0px;
+  }
+
+  /*  h2 CSS */
+  .information h2 {
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  /*  information paragraph CSS*/
+  .information p {
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  /* About me image css */
+  .headshot-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    margin-left: 100px;
+  }
+  .sub-section {
+    flex-direction: column;
+  }
+  .headshot {
+    width: 300px;
+    border-radius: 150px;
+  }
 }

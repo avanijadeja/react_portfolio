@@ -17,8 +17,7 @@ function About() {
                 <h2>HEY, I'M AVANI JADEJA.</h2>
 
                 <p>
-                  I am a software developement engineer. Turning ideas into
-                  reallife{" "}
+                  I am a software engineer. Turning ideas into reallife{" "}
                   <i>
                     <b>Products</b>
                   </i>{" "}

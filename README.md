@@ -2,11 +2,12 @@
 
 # Description
 
-React_portfolio application user can see Avani Jadeja's Portfolio. I created this portfolio using my react skills.So using this portfolio, I can share my work through my latest projects with my fellow developers and collaborate on future projects. 
+React_portfolio application user can see Avani Jadeja's Portfolio. I created this portfolio using my react skills.So using this portfolio, I can share my work through my latest projects with my fellow developers and collaborate on future projects.
 
 In React portfolio application,
 
 GIVEN a single-page application portfolio for a web developer
+
 - WHEN user load the portfolio,
   THEN user presented with a page containing a header, a section for content, and a footer.
 
@@ -52,11 +53,24 @@ GIVEN a single-page application portfolio for a web developer
 
 # Installation
 
+- Create React application using command - npx create-react-app my-app.
+
+- using npm install install all packages for application.
+
+- using command npm run start, user can run this application on browser.
 
 # Usage
 
+![AboutMe](./src/assets/images/AboutMe.png)
+![Portfolio](./src/assets/images/Portfolio.png)
+![PortfolioHover](./src/assets/images/PortfolioHover.png)
+![ContactForm](./src/assets/images/ContactMe.png)
+![ContactFormValidation](./src/assets/images/ContactMEValidation.png)
+![Resume](./src/assets/images/Resume.png)
 
+The URL of the functional, deployed application. - https://avanijadeja.github.io/react_portfolio/
 
+The URL of the GitHub repository - https://github.com/avanijadeja/react_portfolio
 
 # License
 
@@ -65,6 +79,5 @@ This project is using the MIT License.
 # Badges
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
- 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)

@@ -200,6 +200,11 @@ header nav ul li a:hover {
   text-decoration: none;
   color: black;
 }
+
+.projectInfo h5 {
+  font-size: 14px;
+}
+
 /* Portfolio CSS END */
 
 /* Contact Form CSS Start */
@@ -368,12 +373,5 @@ footer ul h2 {
 }
 /* Footer CSS Ends */
 
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 16px;
-  }
-
-  .information {
-    font-size: 10px;
-  }
+@media screen and (max-width: 992px) {
 }

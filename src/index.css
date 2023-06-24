@@ -6,10 +6,10 @@
 
 /* Define Variable for color  */
 :root {
-  --primary-color: #f1dbbf;
-  --secondary-color: #aa5656;
-  --light-color: #b99b6b;
-  --dark-color: #698269;
+  --primary-color: #080202;
+  --secondary-color: #146c94;
+  --light-color: #19a7ce;
+  --dark-color: #f6f1f1;
 }
 
 /*  Define global css */
@@ -94,8 +94,7 @@ header nav ul li a:hover {
 .sub-section {
   display: flex;
   height: 100%;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
 }
 
 /* className information has value about me and information */
@@ -109,7 +108,7 @@ header nav ul li a:hover {
 
 /* apply color to about me h2 text */
 .information h2 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 500;
 }
 
@@ -165,7 +164,7 @@ header nav ul li a:hover {
 /* set margin,fonts-ze and wigth to main header pragraph tag */
 .hero-text p {
   margin: 0;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
 }
 
@@ -272,8 +271,8 @@ header nav ul li a:hover {
 input {
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid var(--dark-color);
-  outline: none;
+  border: 3px solid #cccccc;
+  /* outline: none; */
   border-radius: 3px;
   transition: box-shadow 0.2s;
   width: 600px;

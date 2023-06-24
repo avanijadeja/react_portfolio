@@ -42,10 +42,6 @@ function Contact() {
     <>
       <h1>Contact Me</h1>
       <section className="contactForm">
-        {/* <div className="center">
-          <h1 className="page-header">Contact Me</h1>
-        </div> */}
-        <br></br>
         <div>
           <form id="contact-form">
             <div>

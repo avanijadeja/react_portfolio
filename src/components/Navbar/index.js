@@ -1,12 +1,15 @@
+// import react
 import React from "react";
 
 function Navbar(props) {
+  // Destructing props
   const { currentTab, setCurrentTab } = props;
 
   return (
     <nav>
       <ul className="nav nav-tabs">
         <li className="nav-item">
+          {/* If About click on navbar, set click to about */}
           <a
             href="#about"
             onClick={() => setCurrentTab("About")}
@@ -17,6 +20,7 @@ function Navbar(props) {
         </li>
 
         <li className="nav-item">
+          {/*  If portfolio click on navbar , set link to portfolio */}
           <a
             href="#portfolio"
             onClick={() => setCurrentTab("Portfolio")}
@@ -29,6 +33,7 @@ function Navbar(props) {
         </li>
 
         <li className="nav-item">
+          {/*  If portfolio click on contact , set link to contact */}
           <a
             href="#contact"
             onClick={() => setCurrentTab("Contact")}
@@ -41,6 +46,7 @@ function Navbar(props) {
         </li>
 
         <li className="nav-item">
+          {/*  If portfolio click on resume , set link to resume */}
           <a
             href="#resume"
             onClick={() => setCurrentTab("Resume")}
@@ -54,4 +60,5 @@ function Navbar(props) {
   );
 }
 
+//  Export Navbar Function
 export default Navbar;

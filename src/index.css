@@ -88,7 +88,58 @@ header nav ul li a {
 header nav ul li a:hover {
   color: var(--light-color);
 }
+
 /* header CSS End */
+
+/* About Me CSS Start */
+
+/* Subsection css */
+.sub-section {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+/* className information CSS */
+.information {
+  font-size: 16px;
+  margin-bottom: 80px;
+  margin-right: 40px;
+  padding: 10px;
+  text-align: justify;
+}
+
+/*  h2 CSS */
+.information h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/*  information paragraph CSS*/
+.information p {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+/* About me image css */
+.headshot-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  margin-left: 100px;
+}
+
+.sub-section-alternative h2 {
+  text-align: left;
+}
+
+/*apply width and border radius to About me image */
+.headshot {
+  width: 300px;
+  border-radius: 150px;
+}
+
+/* About me Ends */
 
 /* Portfolio CSS start */
 
@@ -150,56 +201,6 @@ header nav ul li a:hover {
   color: black;
 }
 /* Portfolio CSS END */
-
-#resume {
-  padding-left: 50px;
-  font-size: 40px;
-}
-
-/* second part of portfolio means about me.apply common properties */
-.sub-section {
-  display: flex;
-  height: 100%;
-  justify-content: center;
-}
-
-/* className information has value about me and information */
-.information {
-  margin-bottom: 80px;
-  margin-right: 40px;
-  padding: 10px;
-  text-align: justify;
-}
-
-/* apply color to about me h2 text */
-.information h2 {
-  font-size: 30px;
-  font-weight: 500;
-}
-
-/* appply color to information paragraph */
-.information p {
-  font-size: 30px;
-  font-weight: 300;
-}
-
-/*large image of portfolio person */
-.headshot-container {
-  display: flex;
-  align-items: center;
-  padding-bottom: 15px;
-  margin-left: 100px;
-}
-
-.sub-section-alternative h2 {
-  text-align: left;
-}
-
-/*apply width and border radius to main image */
-.headshot {
-  width: 300px;
-  border-radius: 150px;
-}
 
 /* Contact Form CSS Start */
 

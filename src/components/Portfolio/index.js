@@ -1,5 +1,8 @@
+//  import react
 import React from "react";
+// import project index file
 import Project from "../Project/index";
+// import all images from Assets images
 import barkBook from "../../assets/images/BarkBook.png";
 import dayTime from "../../assets/images/dayTime.png";
 import weather from "../../assets/images/Weather.png";
@@ -7,6 +10,7 @@ import Parkitivities from "../../assets/images/Parkitivities.png";
 import ReactPortfolio from "../../assets/images/ReactPortfolio.png";
 import AvaniPortfolio from "../../assets/images/AvaniPortfolio.png";
 
+//  Created seed for projects in data array
 const data = [
   {
     id: 1,
@@ -53,18 +57,21 @@ const data = [
     name: "ReactPortfolio",
     image: ReactPortfolio,
     github: "https://github.com/avanijadeja/react_portfolio",
-    deploy: "",
-    topics: "Javascript Bootstrap",
+    deploy: "https://avanijadeja.github.io/react_portfolio/",
+    topics: "React",
   },
 ];
 
 function Portfolio() {
   return (
+    // declaring Fragment <> to cover all elements - React return one html element if more than element return cover with fragment element
     <>
       <h1>Portfolio</h1>
       <div className="portfolio" id="portfolio">
+        {/* using map repeat every seed in data array */}
         {data.map((item, i) => {
           return (
+            // called project pass values
             <Project
               key={item.id}
               name={item.name}
@@ -80,4 +87,5 @@ function Portfolio() {
   );
 }
 
+// export function Portfolio
 export default Portfolio;

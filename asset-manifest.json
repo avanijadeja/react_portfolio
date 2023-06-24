@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react_portfolio/static/css/main.dd7f4363.css",
+    "main.js": "/react_portfolio/static/js/main.01ae99be.js",
+    "static/media/Parkitivities.png": "/react_portfolio/static/media/Parkitivities.35d6559597473e222198.png",
+    "static/media/BarkBook.png": "/react_portfolio/static/media/BarkBook.e2df410743d8a7512962.png",
+    "static/media/ReactPortfolio.png": "/react_portfolio/static/media/ReactPortfolio.37913a4dafe0bf959834.png",
+    "static/media/Weather.png": "/react_portfolio/static/media/Weather.4be3ccbe4d6350bc1ed0.png",
+    "static/media/AvaniPortfolio.png": "/react_portfolio/static/media/AvaniPortfolio.68714ac461b8ded20780.png",
+    "static/media/dayTime.png": "/react_portfolio/static/media/dayTime.0ffbb8a490dde68bad34.png",
+    "static/media/AvaniResume.pdf": "/react_portfolio/static/media/AvaniResume.4979d468ea6b6caa4b67.pdf",
+    "static/media/Avani.jpeg": "/react_portfolio/static/media/Avani.aac9488ba7083cb332f6.jpeg",
+    "index.html": "/react_portfolio/index.html",
+    "main.dd7f4363.css.map": "/react_portfolio/static/css/main.dd7f4363.css.map",
+    "main.01ae99be.js.map": "/react_portfolio/static/js/main.01ae99be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd7f4363.css",
+    "static/js/main.01ae99be.js"
+  ]
+}

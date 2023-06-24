@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.c6cf71ed.css",
-    "main.js": "/react_portfolio/static/js/main.01ae99be.js",
+    "main.css": "/react_portfolio/static/css/main.38f9b369.css",
+    "main.js": "/react_portfolio/static/js/main.ba39e93c.js",
     "static/media/Parkitivities.png": "/react_portfolio/static/media/Parkitivities.35d6559597473e222198.png",
     "static/media/BarkBook.png": "/react_portfolio/static/media/BarkBook.e2df410743d8a7512962.png",
     "static/media/ReactPortfolio.png": "/react_portfolio/static/media/ReactPortfolio.37913a4dafe0bf959834.png",
@@ -11,11 +11,11 @@
     "static/media/AvaniResume.pdf": "/react_portfolio/static/media/AvaniResume.4979d468ea6b6caa4b67.pdf",
     "static/media/Avani.jpeg": "/react_portfolio/static/media/Avani.aac9488ba7083cb332f6.jpeg",
     "index.html": "/react_portfolio/index.html",
-    "main.c6cf71ed.css.map": "/react_portfolio/static/css/main.c6cf71ed.css.map",
-    "main.01ae99be.js.map": "/react_portfolio/static/js/main.01ae99be.js.map"
+    "main.38f9b369.css.map": "/react_portfolio/static/css/main.38f9b369.css.map",
+    "main.ba39e93c.js.map": "/react_portfolio/static/js/main.ba39e93c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6cf71ed.css",
-    "static/js/main.01ae99be.js"
+    "static/css/main.38f9b369.css",
+    "static/js/main.ba39e93c.js"
   ]
 }

@@ -3,12 +3,16 @@ import profilePic from "../../assets/images/Avani.jpeg";
 
 function About() {
   return (
+    // declaring Fragment <> to cover all elements - React return one html element if more than element return cover with fragment element
     <>
       <h1>About Me</h1>
+      {/* Added section for About me information */}
       <section className="sub-section" id="about-me">
         <div className="headshot-container">
+          {/*  Added profile pic */}
           <img className="headshot" src={profilePic} alt="Avani Jadeja pic" />
         </div>
+        {/*  Added information in About me  */}
         <div className="information">
           <h2>HEY, I'M AVANI JADEJA.</h2>
           <p>
@@ -30,4 +34,5 @@ function About() {
   );
 }
 
+//  Export function  About()
 export default About;

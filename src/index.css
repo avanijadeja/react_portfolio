@@ -201,6 +201,12 @@ header nav ul li a:hover {
   color: black;
 }
 
+.projectInfo a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: red;
+}
+
 .projectInfo h5 {
   font-size: 14px;
 }

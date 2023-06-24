@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.148686e5.css",
+    "main.css": "/react_portfolio/static/css/main.00a07da5.css",
     "main.js": "/react_portfolio/static/js/main.4baf56cd.js",
     "static/media/Parkitivities.png": "/react_portfolio/static/media/Parkitivities.35d6559597473e222198.png",
     "static/media/BarkBook.png": "/react_portfolio/static/media/BarkBook.e2df410743d8a7512962.png",
@@ -11,11 +11,11 @@
     "static/media/AvaniResume.pdf": "/react_portfolio/static/media/AvaniResume.4979d468ea6b6caa4b67.pdf",
     "static/media/Avani.jpeg": "/react_portfolio/static/media/Avani.aac9488ba7083cb332f6.jpeg",
     "index.html": "/react_portfolio/index.html",
-    "main.148686e5.css.map": "/react_portfolio/static/css/main.148686e5.css.map",
+    "main.00a07da5.css.map": "/react_portfolio/static/css/main.00a07da5.css.map",
     "main.4baf56cd.js.map": "/react_portfolio/static/js/main.4baf56cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.148686e5.css",
+    "static/css/main.00a07da5.css",
     "static/js/main.4baf56cd.js"
   ]
 }

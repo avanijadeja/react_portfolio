@@ -570,7 +570,6 @@ footer ul h2 {
   /* navbar ul css */
   header nav ul {
     padding: 2px;
-    justify-content: flex-start;
   }
 
   .information {
@@ -579,8 +578,6 @@ footer ul h2 {
 
   /*  h2 CSS */
   .information h2 {
-    text-align: center;
-    justify-content: center;
     font-size: 10px;
   }
 

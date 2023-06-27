@@ -54,21 +54,24 @@ function Contact() {
       <h1>Contact Me</h1>
 
       <div className="Contact">
+        {/* contact information */}
         <div className="contact-info">
           <div>
             <address>
               <ul>
                 <li>Feel Free to Contact ME:</li>
-
                 <li className="logo">
+                  {/* React phone icon */}
                   <FaLocationDot /> Austin, Texas
                 </li>
                 <br />
                 <li className="logo">
+                  {/* React phone icon */}
                   <BsFillTelephoneFill /> (512) 884-4858
                 </li>
                 <br />
                 <li className="logo">
+                  {/* React gmail icon */}
                   <GrMail /> avani.jadeja@gmail.com
                   <br />
                 </li>
@@ -143,4 +146,5 @@ function Contact() {
   );
 }
 
+// Export Contact function
 export default Contact;

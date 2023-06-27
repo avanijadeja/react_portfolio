@@ -59,7 +59,7 @@ function Contact() {
             <address>
               <ul>
                 <li>Feel Free to Contact ME:</li>
-                <br></br>
+
                 <li className="logo">
                   <FaLocationDot /> Austin, Texas
                 </li>

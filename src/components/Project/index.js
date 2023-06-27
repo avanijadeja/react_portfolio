@@ -24,11 +24,11 @@ const Project = ({ name, image, github, deploy, description, topics }) => {
           <u></u>
           <br />
           {/* display Decription */}
-          <h5>Description: {description}</h5>
+          <h5>{description}</h5>
           <br></br>
 
           {/* display topics */}
-          <h5>Technologies: {topics}</h5>
+          <h5>{topics}</h5>
         </div>
       </div>
     </div>

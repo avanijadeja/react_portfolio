@@ -65,7 +65,7 @@ function Contact() {
                 </li>
                 <br />
                 <li className="logo">
-                  <BsFillTelephoneFill /> (512)884-4858
+                  <BsFillTelephoneFill /> (512) 884-4858
                 </li>
                 <br />
                 <li className="logo">

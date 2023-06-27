@@ -65,7 +65,7 @@ GIVEN a single-page application portfolio for a web developer
 ![Portfolio](./src/assets/images/Portfolio.png)
 ![PortfolioHover](./src/assets/images/PortfolioHover.png)
 ![ContactForm](./src/assets/images/ContactMe.png)
-![ContactFormValidation](./src/assets/images/ContactMEValidation.png)
+![ContactFormValidation](./src/assets/images/ContactForm.png)
 ![Resume](./src/assets/images/Resume.png)
 
 The URL of the functional, deployed application. - https://avanijadeja.github.io/react_portfolio/

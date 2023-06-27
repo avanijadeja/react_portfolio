@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# React Portfolio
+
+Avani Jadeja's Portfolio using React.
 
 # Description
 
@@ -55,9 +57,9 @@ GIVEN a single-page application portfolio for a web developer
 
 - Create React application using command - npx create-react-app my-app.
 
-- using npm install install all packages for application.
+- using npm install -  install all packages for application.
 
-- using command npm run start, user can run this application on browser.
+- using command npm run start -  user can run this application in the browser.
 
 # Usage
 

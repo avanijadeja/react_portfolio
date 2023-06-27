@@ -62,6 +62,7 @@ function Contact() {
               defaultValue={name}
               onBlur={handleChange}
               name="Name"
+              placeholder="Please Enter Your Name"
             />
           </div>
           <br></br>
@@ -76,6 +77,7 @@ function Contact() {
               defaultValue={email}
               name="email"
               onBlur={handleChange}
+              placeholder="Please Enter Your Email"
             />
           </div>
           <br></br>
@@ -90,6 +92,7 @@ function Contact() {
               name="Message"
               defaultValue={message}
               onBlur={handleChange}
+              placeholder="Pleae Enter Your Message"
               rows="6"
             />
           </div>

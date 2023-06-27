@@ -4,7 +4,7 @@ import React from "react";
 import { VscGithubInverted } from "react-icons/vsc";
 
 // function project argument value comes form portfolio index file
-const Project = ({ name, image, github, deploy, topics }) => {
+const Project = ({ name, image, github, deploy, description, topics }) => {
   return (
     <div className="container">
       <div className="item">
@@ -21,9 +21,14 @@ const Project = ({ name, image, github, deploy, topics }) => {
               <VscGithubInverted />
             </a>
           </h4>
+          <u></u>
           <br />
+          {/* display Decription */}
+          <h5>Description: {description}</h5>
+          <br></br>
+
           {/* display topics */}
-          <h5>{topics}</h5>
+          <h5>Technologies: {topics}</h5>
         </div>
       </div>
     </div>

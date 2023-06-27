@@ -18,6 +18,7 @@ const data = [
     image: barkBook,
     github: "https://github.com/avanijadeja/BarkBook",
     deploy: "https://avani-barkbook.herokuapp.com/",
+    description: "BarkBook is Dog and Groomer Dating App.",
     topics: "Express sequelize",
   },
   {
@@ -26,6 +27,8 @@ const data = [
     image: dayTime,
     github: "https://github.com/avanijadeja/work-day-scheduler",
     deploy: "https://avanijadeja.github.io/work-day-scheduler/",
+    description:
+      "Work Day Scheduler is a Calendar application that allows a user to save events for each hour of the day.",
     topics: "Javascript Bootstrap",
   },
   {
@@ -34,6 +37,8 @@ const data = [
     image: weather,
     github: "https://github.com/avanijadeja/weather-dashboard",
     deploy: "https://avanijadeja.github.io/weather-dashboard/",
+    description:
+      "weather dashboard website shows weather outlook for multiple cities.",
     topics: "Javascript Bootstrap",
   },
   {
@@ -42,6 +47,8 @@ const data = [
     image: Parkitivities,
     github: "https://github.com/avanijadeja/Parktivities",
     deploy: "https://avanijadeja.github.io/Parktivities/",
+    description:
+      "Parktivities is used to find national parks and their respective activities.",
     topics: "Javascript Bootstrap",
   },
   {
@@ -50,6 +57,7 @@ const data = [
     image: AvaniPortfolio,
     github: "https://github.com/avanijadeja/Avani_Portfolio",
     deploy: "https://avanijadeja.github.io/Avani_Portfolio/",
+    description: "Avani's Portfolio",
     topics: "Javascript Bootstrap",
   },
   {
@@ -58,6 +66,7 @@ const data = [
     image: ReactPortfolio,
     github: "https://github.com/avanijadeja/react_portfolio",
     deploy: "https://avanijadeja.github.io/react_portfolio/",
+    description: "Avani's Portfolio",
     topics: "React",
   },
 ];
@@ -78,6 +87,7 @@ function Portfolio() {
               image={item.image}
               github={item.github}
               deploy={item.deploy}
+              description={item.description}
               topics={item.topics}
             />
           );

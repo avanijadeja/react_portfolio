@@ -2,6 +2,9 @@
 import React, { useState } from "react";
 // import validateEmail from utils
 import { validateEmail } from "../../utils/helpers";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { GrMail } from "react-icons/gr";
+import { FaLocationDot } from "react-icons/fa6";
 
 function Contact() {
   // define useState form name, email, message ,set default value as empty string
@@ -49,67 +52,93 @@ function Contact() {
     // declaring Fragment <> to cover all elements - React return one html element if more than element return cover with fragment element
     <>
       <h1>Contact Me</h1>
-      <section className="contactForm">
-        {/* contact form  */}
-        <form id="contact-form">
+
+      <div className="Contact">
+        <div className="contact-info">
           <div>
-            <label htmlFor="Name" className="contactLabel">
-              Name:
-            </label>{" "}
-            <br></br>
-            <input
-              type="text"
-              defaultValue={name}
-              onBlur={handleChange}
-              name="Name"
-              placeholder="Please Enter Your Name"
-            />
+            <address>
+              <ul>
+                <li>Feel Free to Contact ME:</li>
+                <br></br>
+                <li className="logo">
+                  <FaLocationDot /> Austin, Texas
+                </li>
+                <br />
+                <li className="logo">
+                  <BsFillTelephoneFill /> (512)884-4858
+                </li>
+                <br />
+                <li className="logo">
+                  <GrMail /> avani.jadeja@gmail.com
+                  <br />
+                </li>
+              </ul>
+            </address>
           </div>
-          <br></br>
-          <div>
-            <label htmlFor="email" className="contactLabel">
-              Email:
-            </label>
-            <br></br>
-            {/* input for email. onblur handlechange called */}
-            <input
-              type="email"
-              defaultValue={email}
-              name="email"
-              onBlur={handleChange}
-              placeholder="Please Enter Your Email"
-            />
-          </div>
-          <br></br>
-          <div>
-            <label htmlFor="Message" className="contactLabel">
-              {" "}
-              Message:
-            </label>
-            <br></br>
-            {/*  textarea for message , maximum rows 6 on onblur handlechange called */}
-            <textarea
-              name="Message"
-              defaultValue={message}
-              onBlur={handleChange}
-              placeholder="Pleae Enter Your Message"
-              rows="6"
-            />
-          </div>
-          <br></br>
-          {errorMessage && (
+        </div>
+
+        <section className="contactForm">
+          {/* contact form  */}
+          <form id="contact-form">
             <div>
-              {/* display error message */}
-              <p className="error-text">{errorMessage}</p>
+              <label htmlFor="Name" className="contactLabel">
+                Name:
+              </label>{" "}
+              <br></br>
+              <input
+                type="text"
+                defaultValue={name}
+                onBlur={handleChange}
+                name="Name"
+                placeholder="Please Enter Your Name"
+              />
             </div>
-          )}
-          {/* submit button for contact form - onsubmit handlesubmit called */}
-          <button type="submit" className="submit" onSubmit={handleSubmit}>
-            Submit
-          </button>
-          <br></br>
-        </form>
-      </section>
+            <br></br>
+            <div>
+              <label htmlFor="email" className="contactLabel">
+                Email:
+              </label>
+              <br></br>
+              {/* input for email. onblur handlechange called */}
+              <input
+                type="email"
+                defaultValue={email}
+                name="email"
+                onBlur={handleChange}
+                placeholder="Please Enter Your Email"
+              />
+            </div>
+            <br></br>
+            <div>
+              <label htmlFor="Message" className="contactLabel">
+                {" "}
+                Message:
+              </label>
+              <br></br>
+              {/*  textarea for message , maximum rows 6 on onblur handlechange called */}
+              <textarea
+                name="Message"
+                defaultValue={message}
+                onBlur={handleChange}
+                placeholder="Pleae Enter Your Message"
+                rows="6"
+              />
+            </div>
+            <br></br>
+            {errorMessage && (
+              <div>
+                {/* display error message */}
+                <p className="error-text">{errorMessage}</p>
+              </div>
+            )}
+            {/* submit button for contact form - onsubmit handlesubmit called */}
+            <button type="submit" className="submit" onSubmit={handleSubmit}>
+              Submit
+            </button>
+            <br></br>
+          </form>
+        </section>
+      </div>
     </>
   );
 }

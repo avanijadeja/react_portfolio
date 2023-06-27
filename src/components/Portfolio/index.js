@@ -7,7 +7,7 @@ import barkBook from "../../assets/images/BarkBook.png";
 import dayTime from "../../assets/images/dayTime.png";
 import weather from "../../assets/images/Weather.png";
 import Parkitivities from "../../assets/images/Parkitivities.png";
-import ReactPortfolio from "../../assets/images/ReactPortfolio.png";
+import ReactPortfolio from "../../assets/images/AboutMe.png";
 import AvaniPortfolio from "../../assets/images/AvaniPortfolio.png";
 
 //  Created seed for projects in data array

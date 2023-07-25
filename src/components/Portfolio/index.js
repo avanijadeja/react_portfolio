@@ -9,7 +9,7 @@ import weather from "../../assets/images/Weather.png";
 import Parkitivities from "../../assets/images/Parkitivities.png";
 import ReactPortfolio from "../../assets/images/AboutMe.png";
 import AvaniPortfolio from "../../assets/images/AvaniPortfolio.png";
-import DreamLand from "../../assets/images/DreamLand.png"
+import DreamLand from "../../assets/images/DreamLand.png";
 
 //  Created seed for projects in data array
 const data = [

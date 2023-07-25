@@ -9,17 +9,18 @@ import weather from "../../assets/images/Weather.png";
 import Parkitivities from "../../assets/images/Parkitivities.png";
 import ReactPortfolio from "../../assets/images/AboutMe.png";
 import AvaniPortfolio from "../../assets/images/AvaniPortfolio.png";
+import DreamLand from "../../assets/images/DreamLand.png"
 
 //  Created seed for projects in data array
 const data = [
   {
     id: 1,
-    name: "Bark Book",
-    image: barkBook,
-    github: "https://github.com/avanijadeja/BarkBook",
-    deploy: "https://avani-barkbook.herokuapp.com/",
-    description: "BarkBook is Dog and Groomer Dating App.",
-    topics: "Express sequelize",
+    name: "DreamLand WonderLand",
+    image: DreamLand,
+    github: "https://github.com/avanijadeja/DreamLand-WonderLand",
+    deploy: "https://arcane-spire-25027-6f1b8d854313.herokuapp.com/",
+    description: "Dreamland wonderland is e-commerce website for organic Pajamas designed for Baby, kids and adults.",
+    topics: "MERN State Redux",
   },
   {
     id: 2,

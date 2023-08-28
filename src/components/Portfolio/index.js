@@ -6,7 +6,7 @@ import Project from "../Project/index";
 import BarkBook from "../../assets/images/BarkBook.png";
 import BookStoreGQL from "../../assets/images/BookStoreGQL.png";
 import Parkitivities from "../../assets/images/Parkitivities.png";
-import ReactPortfolio from "../../assets/images/AboutMe.png";
+import TechBlog from "../../assets/images/TechBlog.png";
 import Ecommerceshop from "../../assets/images/Ecommerceshop.png";
 import DreamLand from "../../assets/images/DreamLand.png";
 
@@ -63,12 +63,13 @@ const data = [
   },
   {
     id: 6,
-    name: "ReactPortfolio",
-    image: ReactPortfolio,
-    github: "https://github.com/avanijadeja/react_portfolio",
-    deploy: "https://avanijadeja.github.io/react_portfolio/",
-    description: "Avani's Portfolio",
-    topics: "React",
+    name: "TechBlog",
+    image: TechBlog,
+    github: "https://github.com/avanijadeja/tech-blog",
+    deploy: "https://techblog-11-55e6b22819fa.herokuapp.com/",
+    description:
+      "Tech Blog is a CMS-style blog site similar to a Wordpress site.",
+    topics: "express,handlebars,sql,sequelize",
   },
 ];
 

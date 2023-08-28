@@ -4,7 +4,7 @@ import React from "react";
 import Project from "../Project/index";
 // import all images from Assets images
 import BarkBook from "../../assets/images/BarkBook.png";
-import BookStoreGQL from "../../assets/images/BookStoreGQL";
+import BookStoreGQL from "../../assets/images/BookStoreGQL.png";
 import Parkitivities from "../../assets/images/Parkitivities.png";
 import ReactPortfolio from "../../assets/images/AboutMe.png";
 import Ecommerceshop from "../../assets/images/Ecommerceshop.png";

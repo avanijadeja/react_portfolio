@@ -3,12 +3,11 @@ import React from "react";
 // import project index file
 import Project from "../Project/index";
 // import all images from Assets images
-import barkBook from "../../assets/images/BarkBook.png";
-import dayTime from "../../assets/images/dayTime.png";
-import weather from "../../assets/images/Weather.png";
+import BarkBook from "../../assets/images/BarkBook.png";
+import BookStoreGQL from "../../assets/images/BookStoreGQL";
 import Parkitivities from "../../assets/images/Parkitivities.png";
 import ReactPortfolio from "../../assets/images/AboutMe.png";
-import AvaniPortfolio from "../../assets/images/AvaniPortfolio.png";
+import Ecommerceshop from "../../assets/images/Ecommerceshop.png";
 import DreamLand from "../../assets/images/DreamLand.png";
 
 //  Created seed for projects in data array
@@ -19,28 +18,29 @@ const data = [
     image: DreamLand,
     github: "https://github.com/avanijadeja/DreamLand-WonderLand",
     deploy: "https://arcane-spire-25027-6f1b8d854313.herokuapp.com/",
-    description: "Dreamland wonderland is e-commerce website for organic Pajamas designed for Baby, kids and adults.",
-    topics: "MERN State Redux",
+    description:
+      "Dreamland wonderland is e-commerce website for organic Pajamas designed for Baby, kids and adults.",
+    topics: "MERN,State,Redux",
   },
   {
     id: 2,
-    name: "Work Day Scheduler",
-    image: dayTime,
-    github: "https://github.com/avanijadeja/work-day-scheduler",
-    deploy: "https://avanijadeja.github.io/work-day-scheduler/",
+    name: "Bark Book",
+    image: BarkBook,
+    github: "https://github.com/avanijadeja/BarkBook",
+    deploy: "https://barkbook-2-8fb5fde6f147.herokuapp.com/",
     description:
-      "Work Day Scheduler is a Calendar application that allows a user to save events for each hour of the day.",
-    topics: "Javascript Bootstrap",
+      "BarkBook is a application in which user can see all groomers and add comments on groomer about their pet's service.",
+    topics: "Express,Sequelize",
   },
   {
     id: 3,
-    name: "Weather Dashboard",
-    image: weather,
-    github: "https://github.com/avanijadeja/weather-dashboard",
-    deploy: "https://avanijadeja.github.io/weather-dashboard/",
+    name: "BookStore GraphQL",
+    image: BookStoreGQL,
+    github: "https://github.com/avanijadeja/BookStoreGQL",
+    deploy: "https://frozen-mountain-60263-d07f2d628798.herokuapp.com/",
     description:
-      "weather dashboard website shows weather outlook for multiple cities.",
-    topics: "Javascript Bootstrap",
+      "Book Store GQL search for new books to read, keep a list of books to purchase and delete books from purchase list using graphQL.",
+    topics: "MongoDB,Graphql",
   },
   {
     id: 4,
@@ -54,12 +54,12 @@ const data = [
   },
   {
     id: 5,
-    name: "Portfolio",
-    image: AvaniPortfolio,
-    github: "https://github.com/avanijadeja/Avani_Portfolio",
-    deploy: "https://avanijadeja.github.io/Avani_Portfolio/",
-    description: "Avani's Portfolio",
-    topics: "Javascript Bootstrap",
+    name: "E-commerce-shop",
+    image: Ecommerceshop,
+    github: "https://github.com/avanijadeja/E-commerce-shop",
+    deploy: "https://scenic-death-valley-72867-8012c567f6fe.herokuapp.com/",
+    description: "e-commerce-shop uses Redux to manage global state.",
+    topics: "Redux,Mongodb,express,GraphQL",
   },
   {
     id: 6,

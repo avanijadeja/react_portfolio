@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.2180d5d3.css",
-    "main.js": "/react_portfolio/static/js/main.b6c3aa1b.js",
+    "main.css": "/react_portfolio/static/css/main.4ca3fab1.css",
+    "main.js": "/react_portfolio/static/js/main.673b5618.js",
     "static/media/DreamLand.png": "/react_portfolio/static/media/DreamLand.3277ee86c5b22ec3dd50.png",
     "static/media/Parkitivities.png": "/react_portfolio/static/media/Parkitivities.35d6559597473e222198.png",
-    "static/media/BarkBook.png": "/react_portfolio/static/media/BarkBook.e2df410743d8a7512962.png",
-    "static/media/AboutMe.png": "/react_portfolio/static/media/AboutMe.2bee591429e912c92907.png",
-    "static/media/Weather.png": "/react_portfolio/static/media/Weather.4be3ccbe4d6350bc1ed0.png",
-    "static/media/AvaniPortfolio.png": "/react_portfolio/static/media/AvaniPortfolio.68714ac461b8ded20780.png",
-    "static/media/dayTime.png": "/react_portfolio/static/media/dayTime.0ffbb8a490dde68bad34.png",
+    "static/media/Ecommerceshop.png": "/react_portfolio/static/media/Ecommerceshop.e93c3db9d21a100da7cc.png",
+    "static/media/BookStoreGQL.png": "/react_portfolio/static/media/BookStoreGQL.b13fe0c23a05582ba1c7.png",
+    "static/media/BarkBook.png": "/react_portfolio/static/media/BarkBook.235bcbc2fb007e3a06b2.png",
+    "static/media/TechBlog.png": "/react_portfolio/static/media/TechBlog.5bf0071a2229c6ced14f.png",
     "static/media/AvaniResume.pdf": "/react_portfolio/static/media/AvaniResume.4979d468ea6b6caa4b67.pdf",
     "static/media/Avani.jpeg": "/react_portfolio/static/media/Avani.aac9488ba7083cb332f6.jpeg",
     "index.html": "/react_portfolio/index.html",
-    "main.2180d5d3.css.map": "/react_portfolio/static/css/main.2180d5d3.css.map",
-    "main.b6c3aa1b.js.map": "/react_portfolio/static/js/main.b6c3aa1b.js.map"
+    "main.4ca3fab1.css.map": "/react_portfolio/static/css/main.4ca3fab1.css.map",
+    "main.673b5618.js.map": "/react_portfolio/static/js/main.673b5618.js.map"
   },
   "entrypoints": [
-    "static/css/main.2180d5d3.css",
-    "static/js/main.b6c3aa1b.js"
+    "static/css/main.4ca3fab1.css",
+    "static/js/main.673b5618.js"
   ]
 }
